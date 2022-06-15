@@ -3,8 +3,9 @@ const post = (props) => {//  в props  лежат тайтлы, ктр мы пе
     console.log(props)
     return (
         <div className='post'>
-            <h5 className='title'>{props.post.title}</h5>
-            <p className='descr'>{props.post.descr}</p>
+            <h5 className='title'>{props.title}</h5>
+            <p className='descr'>{props.descr}</p>
+            <p className='author'>{props.author}</p>
         </div>
     );
 };
